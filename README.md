@@ -1,7 +1,14 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/render?type=soft&color=00d2ff&height=200&section=header&text=PetShop%20Simulator&fontSize=70&animation=fadeIn&fontAlignY=38" />
-
-  ### 🐾 Desafio POO - Bootcamp Almaviva
+```text
+  _____________________________________________________________
+ /                                                             \
+|    🐾  P E T S H O P    S I M U L A T O R    🐾               |
+|    _____________________________________________________     |
+|                                                              |
+|    > Status: Operacional                                     |
+|    > Sistema: Java POO                                       |
+|    > Developer: Laércio Ricardo                              |
+ \_____________________________________________________________/
   
   **Um sistema de automação de banho pet construído com Java de alta performance.**
 
