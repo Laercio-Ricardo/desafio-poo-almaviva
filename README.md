@@ -1,15 +1,20 @@
 <div align="center">
-```text
-  _____________________________________________________________
- /                                                             \
-|    🐾  P E T S H O P    S I M U L A T O R    🐾               |
-|    _____________________________________________________     |
-|                                                              |
-|    > Status: Operacional                                     |
-|    > Sistema: Java POO                                       |
-|    > Developer: Laércio Ricardo                              |
- \_____________________________________________________________/
   
+# 🐾 PETSHOP SIMULATOR 
+  
+![Banner](https://raw.githubusercontent.com/anderson-rodriguez/anderson-rodriguez/main/img/banner-java.png)
+
+### 🚀 Desafio POO - Bootcamp Almaviva
+
+**Um sistema de automação de banho pet construído com Java de alta performance.**
+
+<br>
+
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
+[![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-00d2ff?style=for-the-badge)](https://github.com/Laercio-Ricardo)
+[![Dev](https://img.shields.io/badge/Developer-Laercio_Ricardo-green?style=for-the-badge&logo=github)](https://github.com/Laercio-Ricardo)
+
+</div>
   **Um sistema de automação de banho pet construído com Java de alta performance.**
 
   ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
