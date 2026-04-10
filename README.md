@@ -1,43 +1,64 @@
-# # 🐾 PetShop Simulator - Desafio POO Almaviva
+<div align="center">
+  <img src="https://capsule-render.vercel.app/render?type=soft&color=00d2ff&height=200&section=header&text=PetShop%20Simulator&fontSize=70&animation=fadeIn&fontAlignY=38" />
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Laercio-Ricardo/desafio-poo-almaviva?style=for-the-badge&logo=github)
-![GitHub language count](https://img.shields.io/github/languages/count/Laercio-Ricardo/desafio-poo-almaviva?color=green&style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/Laercio-Ricardo/desafio-poo-almaviva?color=green&style=for-the-badge&logo=git)
+  ### 🐾 Desafio POO - Bootcamp Almaviva
+  
+  **Um sistema de automação de banho pet construído com Java de alta performance.**
 
-<br>
+  ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+  ![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-00d2ff?style=for-the-badge)
+  ![Dev](https://img.shields.io/badge/Developer-Laercio_Ricardo-green?style=for-the-badge&logo=github)
 
-## 📖 O Projeto
-
-Este é um sistema de gerenciamento de banho para Pet Shop desenvolvido em **Java**, focado nos pilares da Programação Orientada a Objetos (POO): **Encapsulamento, Abstração e Herança.**
-
-O projeto simula o funcionamento de uma máquina de banho automatizada, controlando níveis de insumos e o estado de limpeza dos pets.
-
-### 🚀 Funcionalidades Principais
-
-* 🟢 **Controle de Insumos:** Reservatórios de água (máx 30L) e shampoo (máx 10L).
-* 🟡 **Gestão de Estados:** Validação se o pet está na máquina e se a higienização é necessária.
-* 🔴 **Segurança Lógica:** Impedimento de banhos caso os insumos estejam baixos.
-* 🔵 **Interface:** Sistema via terminal (CLI) preparado para interação com menus.
-
-### 🛠️ Tecnologias e Ferramentas
-
-![Java](https://img.shields.io/badge/Java-21+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-2023.x-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
-![Git](https://img.shields.io/badge/Git-2.x-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)
-
-### 🏗️ Estrutura do Código
-
-| Classe | Descrição |
-| :--- | :--- |
-| `PetLalazinho.java` | Modelo do animal, contendo nome e status de limpeza. |
-| `MaquinaDeBanho.java` | O "cérebro" com as regras de negócio e travas de segurança. |
-| `Main.java` | Ponto de entrada da aplicação para testes e fluxo do programa. |
+</div>
 
 ---
 
-## ⚙️ Como Executar
+## 📖 Sobre o Projeto
 
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/Laercio-Ricardo/desafio-poo-almaviva.git](https://github.com/Laercio-Ricardo/desafio-poo-almaviva.git)
+O **PetShop Simulator** é a representação real de como a Programação Orientada a Objetos (POO) pode ser aplicada para resolver problemas de logística e automação. O sistema gerencia uma máquina de banho que controla desde o nível de shampoo até a higienização do hardware após o uso.
+
+---
+
+## ⚡ Diferenciais Técnicos (O que tem no código)
+
+<table align="center">
+  <tr>
+    <td align="center"><b>🛡️ Encapsulamento</b><br>Proteção total dos atributos da máquina.</td>
+    <td align="center"><b>⚙️ Lógica de Insumos</b><br>Cálculo real de gasto de água e shampoo.</td>
+  </tr>
+  <tr>
+    <td align="center"><b>🚫 Travas de Segurança</b><br>Impedimento de erros via Null Checks.</td>
+    <td align="center"><b>🧼 Auto-Higiene</b><br>Sistema de limpeza obrigatório pós-banho.</td>
+  </tr>
+</table>
+
+---
+
+## 🛠️ Tecnologias e Ferramentas
+
+<div align="center">
+  <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
+</div>
+
+---
+
+## 📂 Organização das Classes
+
+> [!IMPORTANT]
+> A estrutura foi pensada para ser escalável, separando a entidade (Pet) da lógica de serviço (Máquina).
+
+- `PetLalazinho.java` → Onde a vida do animal acontece (Nome e Status).
+- `MaquinaDeBanho.java` → Onde o "link" cai se não tiver estoque. Regras de negócio pesadas.
+- `Main.java` → A central de comando que roda o sistema.
+
+---
+
+## 🚀 Como testar a máquina
+
+```bash
+# Clone o repositório
+git clone [https://github.com/Laercio-Ricardo/desafio-poo-almaviva.git](https://github.com/Laercio-Ricardo/desafio-poo-almaviva.git)
+
+# No IntelliJ, dê o Run no arquivo Main.java
