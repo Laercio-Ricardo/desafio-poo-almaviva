@@ -8,9 +8,11 @@ public class MaquinaDeBanho {
     public void DarBanhoNoPet() {
         // Se tentar dar banho sem pet, o programa estoura. O return mata o erro aqui.
         if (this.petLalazinho == null) {
-            System.out.println("Erro: Máquina vazia.");
+            System.out.println("Erro: Máquina sem Pet.");
             return;
         }
+
+        System.out.println();
 
 
         // Validação de estoque conforme a regra do exercício
@@ -44,9 +46,11 @@ public class MaquinaDeBanho {
         }
         shampoo += 2;
     }
-
+  // COMANDO PARA ADICIONAR AGUA E SHAMPOO
     public int getAgua() { return agua; }
     public int getShampoo() { return shampoo; }
+
+
 
     public boolean hasPet() {
         return petLalazinho != null;
@@ -78,4 +82,16 @@ public class MaquinaDeBanho {
             System.out.println("Estoque insuficiente para limpeza.");
         }
     }
+
+    public void retirarPet() {
+        if (!hasPet()) {
+            System.out.println("Não há nenhum pet na máquina para retirar.");
+            return;
+        }
+
+        System.out.println("O pet " + petLalazinho.getName() + " foi retirado da máquina!");
+        // Limpa a variável, esvaziando a máquina
+        this.petLalazinho = null;
+    }
+
 }
