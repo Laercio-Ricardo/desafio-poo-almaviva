@@ -2,8 +2,6 @@
   
 # 🧼 LALAXP: PETSHOP AUTOMATION SYSTEM
   
-![Banner](https://raw.githubusercontent.com/anderson-rodriguez/anderson-rodriguez/main/img/banner-java.png)
-
 ### 🚀 Backend Challenge - Bootcamp Almaviva x LalaXP Ecosystem
 
 **Arquitetura robusta para automação de banho pet, focada em segurança de dados e gestão de insumos.**
